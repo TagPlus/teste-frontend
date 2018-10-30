@@ -1,0 +1,26 @@
+{
+  "name": "teste-frontend",
+  "version": "1.0.0",
+  "description": "```\r  _            _   _         _     _  __  \r | |_    ___  | | | |  ___  | |   (_) \\ \\ \r | ' \\  / -_) | | | | / _ \\ |_|    _   | |\r |_||_| \\___| |_| |_| \\___/ (_)   ( )  | |\r                                  |/  /_/ \r ```\r # Teste para candidatos à vaga de desenvolvedor Front-end da TagPlus",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TagPlus/teste-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TagPlus/teste-frontend/issues"
+  },
+  "homepage": "https://github.com/TagPlus/teste-frontend#readme"
+}
