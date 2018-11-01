@@ -1,0 +1,51 @@
+.header{
+    height: 70px;
+    background-color: #3199de;
+    &-image{
+        position: absolute;
+        top: 5px;
+        width: 160px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        &-image{
+            position: absolute;
+            top: 22px;
+            width: 120px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        &-image{
+            
+            width: 120px;
+        }
+        .header{
+            &-text,&-buttons{
+                display: none;
+            }
+        }
+    }
+
+    &-menu{
+        margin-top: 15px;
+    }
+    &-desc{
+        margin-top: 40px;
+        color:white;
+    }
+    &-buttons{
+        margin-top: 20px;
+        button{
+            background-color: #fff;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        &-buttons{
+            span{
+                display: none;
+            }
+        }
+    }
+}
