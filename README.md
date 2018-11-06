@@ -17,7 +17,17 @@
 
 4. Não tenha pressa! Iremos avaliar a qualidade do seu código, mesmo incompleto e principalmente a sua semântica.
 
-### Material 
+### Envio
+
+ 1. Crie uma conta no GitHub, se já não possuir;
+
+ 2. Faça um fork do projeto (botão no canto superior direito da página inicial do projeto). Isto vai criar um novo projeto com o mesmo nome na sua conta pessoal;
+
+ 3. Utilize o projeto da sua conta pessoal para fazer as alterações necessárias. Utilize a branch "*master*" pra facilitar o processo;
+
+ 4. Ao terminar as alterações, solicite um pull request no projeto principal da tagplus ("New pull Request"), ative a opção "compare across forks" e informe o seu fork pessoal para criar a requisição.
+
+### Material
 
 * Desktop: https://invis.io/N83OWYCZ5
 * Mobile: https://invis.io/ZA3PCIES4
@@ -38,8 +48,6 @@
 * Grid: http://getbootstrap.com/css/#grid
 * Paleta de cores usadas no layout: https://color.adobe.com/pt/teste-folha-web-color-theme-6584765/
 * Mussum Ipsum (gerador de lorem ipsum do Mussum): http://mussumipsum.com/
-
-Ao terminar o teste, solicite um pull request.
 
 Em caso de dúvidas, envie e-mail para bruno@tagplus.com.br.
 
