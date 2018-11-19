@@ -1,0 +1,219 @@
+/*-- Reset --*/
+*{ margin: 0; padding: 0; font-size: 100%; border: none; outline: none; box-sizing: border-box;
+ font-family: 'Open Sans', sans-serif; }
+body{ background-color: rgb(236, 240, 241); }
+/*-- configurando para desktop tela 1280px--*/
+/*-- header --*/
+#header{ margin-left: 2%;  }
+#navbar{ height: 110px; width: 1280px; background-color: rgb(52, 152, 219); }
+#logo{  float: left; margin-left:15%; }
+#logo_icon{ width: 238px;height: 98px; background: url(../desktop/logo.png); font-size: 0;} 
+#menu{ float: left; margin-left: 5%; padding: 2%; }
+#menu_icon{width: 50px; height: 42px; background: url(../desktop/menu-icon.png); font-size: 0; }
+#texto_navbar{ float: left; padding: 3%; margin-left: -2%; }
+#img_tw{ float: right; margin-right:2%; padding: 2%; }
+#tw_icon{ width: 100px; height: 37px; background: url(../desktop/botao_tw.png); font-size: 0; }
+#img_face{ float: right; margin-right:-2%; padding: 2%; }
+#face_icon{ width: 100px; height: 37px; background: url(../desktop/botao_face.png); font-size: 0; }
+/*-- carrossel rotação --*/
+#carrossel{ height:450px; width:1139px; align-items: center; background: url(../desktop/image_rotate.png); position: absolute;
+ left: 8%; top: 28%; }
+#left{ position: absolute; margin-top: 19%; background-color: white;  border-radius: 50%;  width: 55px;
+ height: 55px; margin-left: -2% ; box-shadow: 5px 5px 5px rgba(0,0,0,0.5);}
+#arrow_left{ width: 25px; height: 37px; background: url(../desktop/arrow_left-icon.png); font-size: 0; 
+ margin-top: 15%; margin-left: 26%;}
+#right{ float: right; margin-top: 18%; background-color: white;  border-radius: 50%;  width: 55px;
+ height: 55px; margin-right:-2%; box-shadow: 5px 5px 5px rgba(0,0,0,0.5); }
+ #arrow_right{ width: 25px; height: 37px; background: url(../desktop/arrow_right-icon.png); font-size: 0; 
+ margin-top: 15%; margin-left: 26%; }
+ #texto_carrossel{ background-color:  rgb(52, 152, 219); width: 260px; height: 35px; position: absolute; bottom: 25%; left: 5%; }
+ #titulo_1{ font-size: 1.1em; color: rgb(255, 255, 255); margin-left: 5% ; margin-top: 3%; }
+ #texto_1{ color: rgb(255, 255, 255); font-size: 1.4em; width: 600px; position: absolute; bottom: 10%; left: 5%; }
+ #img_rotacao{ position: absolute; bottom: -10%; left: 45%}
+ #rotacao_icon{ width: 104px; height: 35px; background: url(../desktop/rotacao.png); font-size: 0; }
+/*-- top cacildis --*/
+#texto_cacildis { position: absolute; left: 8%; top: 113%; font-size: 1.4em }
+#container{ width: 1139px; position: absolute; left: 8%; top: 120%; display: flex;}
+.item{  padding: 20px; width: 360px; height: 215px}
+.article-01{ background: url(../desktop/highlight-01.png);}
+#item_article_01 { width: 150px; background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); padding: 5px; 
+position: absolute; bottom: 10%; left: 0; color: rgb(255, 255, 255)}
+.article-02{ background: url(../desktop/highlight-02.png); margin-left: 56px}
+#item_article_02{ width: 100px; background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); padding: 5px;
+position: absolute; bottom: 10%; left: 35%; color: rgb(255, 255, 255) }
+.article-03{ background: url(../desktop/highlight-03.png); margin-left: 56px}
+#item_article_03{ width: 100px; background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); padding: 5px;
+position: absolute; bottom: 10%; left: 70%; color: rgb(255, 255, 255) }
+/*-- divoltis porris --*/
+#texto_divolts{position: absolute; left: 8%;top: 160%; font-size: 1.4em }
+#container_2 { width: 1000px; position: absolute; left: 8%; top: 167%; display: flex; flex-wrap: wrap;}
+.item1{ width: 340px;  height: 300px; border-bottom: 1px solid rgb(108, 157, 232);}
+#item_article_04{ background: url(../desktop/divoltis_porris-01.png); height: 215px; margin-bottom: 10px;}
+.article-05{ margin-left: 56px;}
+#item_article_05{ background: url(../desktop/divoltis_porris-02.png); height: 215px; margin-bottom: 10px;}
+.article-06{ margin-top: 3%;}
+#item_article_06{ background: url(../desktop/divoltis_porris-03.png); height: 215px; margin-bottom: 10px;}
+.article-07{ margin-top: 3%; margin-left: 56px}
+#item_article_07{ background: url(../desktop/divoltis_porris-04.png); height: 215px; margin-bottom: 10px;}
+.paragrafo_divolts {color: rgb(108, 157, 232);}
+/*-- publicidade --*/
+#publicidade{ position: absolute; left: 82%; }
+#publicidade_img{background: url(../desktop/ads-300x600.png); width: 300px; height: 600px}
+.paragrafo_publicidade{ color: rgb(167, 173, 166); position: absolute; left: 102%; top: -5%; font-size: 1.0em;  }
+/*-- paisis --*/
+#titulo_paisis{position: absolute; top: -50px; color: rgb(108, 157, 232);}
+#paisis{ width: 1139px; height: 370px; position: absolute; left: 8%; top: 1850px;  }
+#container_3 { width: 500px; display: flex; flex-wrap: wrap; }
+.item2{ width: 340px;  height: 70px; border-bottom: 1px solid rgb(108, 157, 232); }
+.paragrafo_paisis { margin-bottom: 20px; margin-top: 10px }
+.paragrafo_paisis_filhi{ color: rgb(255, 115, 38); }
+/*-- pirulita --*/
+#titulo_pirulita{ position: absolute; left: 35%; top: -50px; color: rgb(255, 115, 38); }
+#pirulita{ width: 500px; display: flex; flex-wrap: wrap;  position: absolute; left: 35%; top: 0px;  }
+.item3{ width: 170px;  height: 166px;}
+.article-13 {  background: url(../desktop/se_pirulita-01.png); }
+.article-15 {  background: url(../desktop/se_pirulita-02.png); margin-top: 10px }
+.teste { padding: 10px }
+/*-- cevadiss --*/ 
+#titulo_cevadiss{ position: absolute; left: 70%; top: -50px; color: rgb(255, 115, 38);}
+#cevadiss{  display: flex; flex-wrap: wrap;  position: absolute; left: 70%; top: 0px; }
+.item4{ width: 170px;  height: 166px;}
+.article-17 {  background: url(../desktop/suco_de_cevadiss-01.png); }
+.article-19 {  background: url(../desktop/suco_de_cevadiss-02.png);  margin-top: 10px }
+/*-- Rodape --*/ 
+#footer{ height: 140px; width: 1280px; background-color: rgb(52, 152, 219); position: absolute; left: 2%; top: 2400px; }
+#voltar{color: white; float: right; width: 200px }
+#paragrafo_voltar{font-size: 1.0em; position: absolute; top: 5px}
+#footer_container{ height: 90px; width: 1280px; background-color: rgb(24, 49, 125); position: absolute; bottom: 0px }
+#img_folha{ position: absolute; left: 15%; top:10%; }
+#folha_icon{ width: 134px; height: 54px; background: url(../desktop/logo_footer.png); font-size: 0; }
+#texto_footer{ font-size: 0.8em; width: 700px; text-align: justify; color: rgb(255, 255, 255); position: absolute; left: 30%; top:30%; }
+/*-- --------------------- -------------------- -------------------------------------------------- --------------------------- ------*/
+/*-- Breakpoints --*/
+/*-- configurando para tela 480px small devices--*/
+@media screen and (max-width: 480px){
+/*-- header --*/
+#header{ margin-left: 0%; }
+#navbar{ width: 480px; }
+#img_tw{ display: none } #tw_icon{ display: none } #img_face{ display: none } #face_icon{ display: none } 
+#texto_navbar{ display: none } #texto_navbar{ display: none }
+#logo{ margin-left:2%; margin-top: 10px }
+#logo_icon{ width: 208px; height: 90px; background: url(../mobile/logo.png);} 
+#menu_icon{width: 40px; height: 38px; background: url(../mobile/menu-icon.png);}
+/*-- carrossel rotação --*/
+#carrossel{ height:270px; width:450px; align-items: center; background: url(../mobile/image_rotate.png); position: absolute;
+ left: 0%; top: 25%; }
+#left{ display: none } #arrow_left{ display: none } #right{ display: none } #arrow_right{ display: none }
+ #texto_carrossel{ background-color:  rgb(52, 152, 219); width: 260px; height: 35px; position: absolute; bottom: 2%; left: 1%; }
+ #titulo_1{ font-size: 1.2em; color: rgb(255, 255, 255); margin-left: 5% ; margin-top: 3%; }
+ #texto_1{ color:black; font-size: 1.0em; width: 310px; position: absolute; bottom: -20%; left: 1%; }
+ #img_rotacao{ position: absolute; bottom: -40%; left: 38%}
+ #rotacao_icon{ width: 104px; height: 35px; background: url(../desktop/rotacao.png); font-size: 0; }
+/*-- top cacildis --*/
+#texto_cacildis { display: none}
+#container{ width: 480px; position: absolute; left: 0%; top: 85%; display: flex; flex-wrap: wrap;}
+.item{  padding: 20px; width: 480px; height: 215px}
+.article-01{ background: url(../mobile/highlight-01.png);}
+#item_article_01 { bottom: 70% }
+.article-02{ background: url(../mobile/highlight-02.png); margin-left: 0; margin-top: 10px;}
+#item_article_02{ bottom: 37% ; left:0%;}
+.article-03{ background: url(../mobile/highlight-03.png); margin-left: 0; margin-top: 10px;}
+#item_article_03{ bottom: 2% ; left:0%; }
+/*-- divoltis porris --*/
+#texto_divolts{left: 0%;top: 193%; font-size: 1.2em }
+#container_2 { width: 480px; position: absolute; left: 0%; top: 200%;}
+.item1{ width: 480px;}
+.article-05{ margin-left: 0; margin-top:10px; }
+.article-07{ margin-left: 0;}
+.texto_porris{font-size: 1,2em ;width:300px;}
+/*-- publicidade --*/
+#publicidade{ left: 10%; top: 230%}
+#publicidade_img{background: url(../mobile/ads-300x250.png); width: 300px; height: 250px}
+.paragrafo_publicidade{ left: 55%; top: 228% }
+/*-- paisis --*/
+#titulo_paisis{ top: -10%;  font-size: 1.2em; color: blue}
+#paisis{ width: 480px; height: 370px; position: absolute; left: 0%; top: 406%;    }
+#container_3 { width: 480px; display: flex; flex-wrap: wrap; }
+.item2{ width: 340px;  height: 70px;  }
+.paragrafo_paisis { margin-bottom: 20px; margin-top: 10px }
+/*-- pirulita --*/
+#titulo_pirulita{  left: 0%; top: 100%;}
+#pirulita{width: 480px;  left: 0%; top: 115%;  }
+.item3{ width: 212px;  height: 212px;}
+.article-13 {  background: url(../mobile/se_pirulita-01.png); }
+.article-15 {  background: url(../mobile/se_pirulita-02.png); margin-top: 10px }
+.teste { padding: 10px }
+/*-- cevadiss --*/ 
+#titulo_cevadiss{left: 0%; top: 240%; }
+#cevadiss{ left: 0%; top: 260%; }
+.item4{ width: 212px;  height: 212px;}
+.article-17 { background: url(../mobile/suco_de_cevadiss-01.png);  }
+.article-19 {  background: url(../mobile/suco_de_cevadiss-02.png); margin-top: 10px }
+/*-- Rodape --*/ 
+#footer{ height: 140px; width: 480px; left: 0%; top: 720%;}
+#voltar{color: white; float: right; width: 200px }
+#paragrafo_voltar{font-size: 1.0em; position: absolute; top: 5px}
+#footer_container{  width: 480px;  }
+#img_folha{ display: none }
+#folha_icon{ display: none }
+#texto_footer{ font-size: 0.8em; width: 400px; left: 5%; top:5%; }
+}
+/*-- --------------------- -------------------- -------------------------------------------------- --------------------------- ------*/
+/*-- configurando para tela tablet 768px medium devices--*/
+@media screen and (min-width: 480px) and (max-width: 991px){ 
+/*-- header --*/
+#header{ margin-left: 0%; }
+#navbar{ width: 991px }
+#logo{ margin-left:-500px; position: absolute; top: 3% }
+#logo_icon{ width: 199px;height: 80px; background: url(../tablet/logo.png);} 
+#menu{ margin-left: 5%; padding: 2%; }
+#menu_icon{width: 50px;height: 42px; background: url(../tablet/menu-icon.png); }
+#texto_navbar{ margin-left: 28%; margin-top: 2%;} #img_tw{ display: none} #tw_icon{ display: none}
+#img_face{ display: none }#face_icon{ display: none}
+/*-- carrossel rotação --*/
+#carrossel{ height:432px; width:720px; align-items: center; background: url(../desktop/image_rotate.png); position: absolute;
+ left: 13%; top: 28%; }
+#left{display: none} #arrow_left{display: none}
+#right{display: none} #arrow_right{ display: none}
+#img_rotacao{ position: absolute; bottom: -10%; left: 42%}
+ /*-- top cacildis --*/
+#texto_cacildis { display: none}
+#container{ width: 720px; left: 13%; top: 110%;}
+.item{  width: 220px; height: 133px}
+.article-01{ background: url(../tablet/highlight-01.png);}
+.article-02{ background: url(../tablet/highlight-02.png); margin-left: 50px}
+#item_article_02{  left: 36%;}
+.article-03{ background: url(../tablet/highlight-03.png); margin-left: 50px}
+#item_article_03{ left: 71%; }
+/*-- divoltis porris --*/
+#texto_divolts{left: 15%; top: 140%;}
+#container_2 { width: 720px; left: 15%; top: 150%;}
+.item1{ width: 300px;  height: 300px; border-bottom: 1px solid rgb(108, 157, 232);}
+#item_article_04{ background: url(../tablet/divoltis_porris-01.png);}
+.article-05{ margin-left: 80px;}
+#item_article_05{ background: url(../tablet/divoltis_porris-02.png);}
+#item_article_06{ background: url(../tablet/divoltis_porris-03.png);}
+.article-07{  margin-left: 80px}
+/*-- paisis --*/
+#titulo_paisis{ top: -50px; left: 0%}
+#paisis{ width: 1139px; height: 370px; position: absolute; left: 15%; top: 1650px;}
+/*-- pirulita --*/
+#titulo_pirulita{position: absolute; left: 35%; top: -50px; color: rgb(255, 115, 38);}
+#pirulita{width: 500px; display: flex; flex-wrap: wrap;  position: absolute; left: 35%; top: 0px;}
+.item3{width: 170px;  height: 166px;}
+.article-13 { background: url(../tablet/se_pirulita-01.png);}
+.article-15 { background: url(../tablet/se_pirulita-02.png);}
+/*-- cevadiss --*/ 
+#titulo_cevadiss{position: absolute; left: 0%; top: 450px;}
+#cevadiss{left: 0%; top: 500px; width: 400px;}
+.article-17 { background: url(../tablet/suco_de_cevadiss-01.png);}
+.article-19 { background: url(../tablet/suco_de_cevadiss-02.png);}
+/*-- publicidade --*/
+#publicidade{ left: 56%; top: 1250px; }
+#publicidade_img{background: url(../tablet/ads-300x250.png); width: 300px; height: 250px}
+.paragrafo_publicidade{left: 86%; top: 1230px;}
+/*-- Rodape --*/ 
+#footer{ width: 991px; left: 0%; top: 410%;}
+#footer_container{  width: 991px;  }
+#texto_footer{ font-size: 0.8em; width: 400px; left: 35%; top:15%;}
+}
