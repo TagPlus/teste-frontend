@@ -1,0 +1,17 @@
+.firstFotter{
+    background-color: #3199de;
+}
+.secondFotter{
+    background-color: #283c4f;
+    padding-top: 10px;
+    p{
+        color:white;
+        font-size: 1.4rem;
+        font-family: "Helvetica";
+    }
+    @media only screen and (max-width: 768px) {
+        .footer-logo{
+            display: none;
+        }
+    }
+}

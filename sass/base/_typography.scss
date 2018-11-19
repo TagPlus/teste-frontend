@@ -1,0 +1,34 @@
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    /* font-size:  16px; */
+    line-height: 1.7;
+    color: #36495b;    
+}
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.text{
+    &-blue{
+        &-light{
+            color: $blueLight;
+        }
+        &-dark{
+            color: $blueDark;
+        }
+    }
+    &-gray{
+        &-light{
+            color: $grayLight;
+        }
+        &-dark{
+            color: $grayDark;
+        }
+    }
+    &-red{
+        color: $red;
+    }
+}

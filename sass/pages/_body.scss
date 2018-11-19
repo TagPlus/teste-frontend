@@ -1,0 +1,23 @@
+
+
+@media only screen and (max-width: 1200px) {
+    .hdAd{
+        display: none;
+    }
+    .sm-padding-bottom{
+        padding-bottom: 170px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .lowAd{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .img-xs-full{
+        width: 100%;
+    }
+    .sm-padding-bottom{
+        padding-bottom: 20px;
+    }
+}

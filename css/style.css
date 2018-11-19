@@ -1,0 +1,288 @@
+/* line 1, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header {
+  height: 70px;
+  background-color: #3199de;
+}
+
+/* line 4, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header-image {
+  position: absolute;
+  top: 5px;
+  width: 160px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 11, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+  .header-image {
+    position: absolute;
+    top: 22px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 19, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+  .header-image {
+    width: 120px;
+  }
+  /* line 24, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+  .header .header-text, .header .header-buttons {
+    display: none;
+  }
+}
+
+/* line 30, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header-menu {
+  margin-top: 15px;
+}
+
+/* line 33, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header-desc {
+  margin-top: 40px;
+  color: white;
+}
+
+/* line 37, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header-buttons {
+  margin-top: 20px;
+}
+
+/* line 39, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+.header-buttons button {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 46, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_header.scss */
+  .header-buttons span {
+    display: none;
+  }
+}
+
+/* line 1, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_footer.scss */
+.firstFotter {
+  background-color: #3199de;
+}
+
+/* line 4, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_footer.scss */
+.secondFotter {
+  background-color: #283c4f;
+  padding-top: 10px;
+}
+
+/* line 7, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_footer.scss */
+.secondFotter p {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Helvetica";
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 13, C:/wamp64/www/Tagplus/teste-frontend/sass/layout/_footer.scss */
+  .secondFotter .footer-logo {
+    display: none;
+  }
+}
+
+/* line 1, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_utilities.scss */
+.image-center {
+  margin: 0 auto;
+}
+
+/* line 5, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_utilities.scss */
+.mini-margin-top {
+  margin-top: 30px;
+}
+
+/* line 2, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  /* font-size:  16px; */
+  line-height: 1.7;
+  color: #36495b;
+}
+
+/* line 9, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/* line 16, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.text-blue-light {
+  color: #3498DB;
+}
+
+/* line 19, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.text-blue-dark {
+  color: #2980B9;
+}
+
+/* line 24, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.text-gray-light {
+  color: #ECF0F1;
+}
+
+/* line 27, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.text-gray-dark {
+  color: #2C3E50;
+}
+
+/* line 31, C:/wamp64/www/Tagplus/teste-frontend/sass/base/_typography.scss */
+.text-red {
+  color: #E74C3C;
+}
+
+/* line 1, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_lista.scss */
+.lista {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+/* line 5, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_lista.scss */
+.lista li {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+/* line 2, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.slide img {
+  width: 100%;
+}
+
+/* line 6, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.slide .left-arrow {
+  left: -30px;
+}
+
+/* line 9, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.slide .right-arrow {
+  right: -30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 14, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+  .slide .arrow {
+    display: none;
+  }
+}
+
+/* line 18, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.slide .arrow {
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px #bcbcbc;
+  border: 1px solid #bcbcbc;
+}
+
+/* line 27, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.slide .arrow img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 33, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.carousel-indicators {
+  bottom: -40px;
+}
+
+/* line 35, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.carousel-indicators li {
+  border: 1px solid #575757;
+  background-color: #575757;
+}
+
+/* line 39, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_carrousel.scss */
+.carousel-indicators .active {
+  background-color: #3498DB;
+  border: 1px solid #3498DB;
+}
+
+/* line 2, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* line 7, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+.img-text-left {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  background-color: #E74C3C;
+  padding: 5px;
+}
+
+/* line 14, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+.img-text-title-sub {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  background-color: #3498DB;
+  padding: 5px;
+}
+
+/* line 21, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+.img-text-title-main {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 31, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+  .img-text-title-sub {
+    bottom: 100px;
+    left: 10px;
+  }
+  /* line 35, C:/wamp64/www/Tagplus/teste-frontend/sass/components/_imageContainer.scss */
+  .img-text-title-main {
+    position: relative;
+    margin-top: 15px;
+    color: #2C3E50;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 4, C:/wamp64/www/Tagplus/teste-frontend/sass/pages/_body.scss */
+  .hdAd {
+    display: none;
+  }
+  /* line 7, C:/wamp64/www/Tagplus/teste-frontend/sass/pages/_body.scss */
+  .sm-padding-bottom {
+    padding-bottom: 170px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 12, C:/wamp64/www/Tagplus/teste-frontend/sass/pages/_body.scss */
+  .lowAd {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 17, C:/wamp64/www/Tagplus/teste-frontend/sass/pages/_body.scss */
+  .img-xs-full {
+    width: 100%;
+  }
+  /* line 20, C:/wamp64/www/Tagplus/teste-frontend/sass/pages/_body.scss */
+  .sm-padding-bottom {
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */

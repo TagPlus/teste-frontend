@@ -1,0 +1,41 @@
+.img{
+    &-container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    &-text-left {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        background-color: $red;
+        padding: 5px;
+    }
+    &-text-title-sub{
+        position: absolute;
+        bottom: 70px;
+        left: 10px;
+        background-color: $blueLight;
+        padding: 5px;
+    }
+    &-text-title-main{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        color: white;
+        padding: 5px;
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        &-text-title-sub{
+            bottom: 100px;
+            left: 10px;
+        }
+        &-text-title-main{
+            position: relative;
+            margin-top: 15px;
+            color: $grayDark;
+        }
+    }
+}
